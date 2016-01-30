@@ -1,0 +1,152 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Crime Busters</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="images/icon.ico" />
+    <script language="javascript" type="text/javascript">
+// <![CDATA[
+
+        function textfield_onclick() {
+
+        }
+
+// ]]>
+    </script>
+    <style type="text/css">
+        #Div3
+        {
+            width: 85px;
+        }
+        #Div2
+        {
+            width: 75px;
+        }
+        #Div1
+        {
+            width: 79px;
+        }
+        .style1
+        {
+            font-weight: normal;
+        }
+        .style2
+        {
+            color: #FF6600;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    
+<div id="headerbg">
+  <div id="headerblank">
+    <div id="header">
+      <div id="menu">
+        <ul>
+          <li><a href="Login.aspx" class="menu">Home</a></li>
+          <li><a href="RedirectLogin.aspx" class="menu">Report crime</a></li>
+          <li><a href="#" class="menu">About Us</a></li>
+          <li><a href="#" class="menu">Contact </a></li>
+        </ul>
+      </div>
+      <br><br><br><br><br><br><br><br>
+    
+      <div id="login">
+        <div id="logintxtblank">
+       
+          <div id="Div2"><a href="Login.aspx" class="register"> <font color="red">User Login</font></a></div>
+          <div id="Div1"><a href="ALogin.aspx" class="register"><font color="red">Admin Login</font></a></div>
+          <div id="Div3"><a href="Registration.aspx" class="register"><font color="blue"><u>Register Now</u></font></a></div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>       
+   
+<div id="contentbg">
+  <div id="contentblank">
+    <div id="content">
+      <div id="contentleft">
+        <div id="leftheading">
+          <h4>Safety Measures</h4>
+        </div>
+        <div class="lefttxtblank">
+          <div class="leftboldtxtblank">
+            <div class="leftboldtxt">Report Unusual or suspicious activities to the Police at<span 
+                    class="style1"><strong> 022-22621855</strong></span> (extension 100)</div>
+          </div>
+        </div>
+        <div class="lefttxtblank02">
+            <div class="leftboldtxt">Small electronics such as iPods, mobile phones, pen drives 
+                etc are easily taken by theives and must be secured.</div>
+        </div>
+        <div class="lefttxtblank02">
+            <div class="leftboldtxt">Do not open your car window more than an inch if you 
+                respond to strangers who approach your car</div>
+        </div>
+        <div id="leftnavheading">
+          <h4>Notice, Remember &amp; Report</h4>
+        </div>
+        <div id="leftnav">
+          <ul>
+              <li class="style2">Anything left at the scene by the</li>
+              <li class="style2">&nbsp;assailant or the victim</li>
+              <li class="style2">Description of the person including </li>
+              <li class="style2"></li>
+              <li>&nbsp;&nbsp; -approximate age</li>
+              <li>&nbsp;&nbsp; -gender</li>
+              <li>&nbsp;&nbsp; -color and length of hair</li>
+              <li>&nbsp;&nbsp; -color of eyes</li>
+              <li>&nbsp;&nbsp; -color of skin</li>
+              <li>&nbsp;&nbsp; -approximate height</li>
+              <li>&nbsp;&nbsp; -distinctive marks (scars/ tattoos)</li>
+              <li></li>
+              <li></li>
+          </ul>
+            <p>
+                &nbsp;</p>
+        </div>
+      </div>
+      <div id="contentmid">
+        <div class="midheading">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+                <h2>
+                    &nbsp;</h2>
+            
+            </asp:ContentPlaceHolder>
+        </div>     
+        <div id="galleryblank" align="right">
+            <div id="rightpic" align="right">
+               
+                <h1 align="left">
+                    Most Wanted</h1>
+            </div>
+            <span class="rightboldtxt">
+        <img src="E:\Project\Website_Login\images\wanted.jpg" alt="wanted1" 
+                style="margin-left: 2px; height: 135px; width: 158px; margin-top: 0px;" /></div></span>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footerbg">
+  <div id="footerblank">
+    <div id="footer">
+      <div id="footerlinks"><a href="#" class="footerlinks">Home</a> | 
+          <a href="#" class="footerlinks">Report Crime </a>&nbsp;| 
+          <a href="#" class="footerlinks">About Us</a> | <a href="#" class="footerlinks">
+          Contact</a> </div>
+      <div id="copyrights">© Copyright Information Goes Here. All Rights Reserved.</div>
+      <div id="designedby">Designed by 
+          <a href="http://www.templateworld.com" target="_blank" class="designedby">SHAINA 
+          ROHIT JENI</a> </div>
+    </div>
+  </div>
+</div>
+    </form>
+</body>
+</html>
